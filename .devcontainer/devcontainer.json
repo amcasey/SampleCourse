@@ -5,13 +5,14 @@
 	"image": "mcr.microsoft.com/devcontainers/base:noble",
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {},
+		"ghcr.io/va-h/devcontainers-features/uv:1": {},
 		"ghcr.io/devcontainers/features/node:1": {
 			"nodeGypDependencies": true,
 			"version": "lts"
 		},
 		"ghcr.io/devcontainers/features/rust:1": {}
 	},
-	"postCreateCommand": "python3 -m venv .venv && .venv/bin/python -m pip install -r qdk-learning/courses/chemistry-local/requirements.txt",
+	"postCreateCommand": "uv venv .venv && uv pip install --python .venv/bin/python --requirement qdk-learning/courses/chemistry-local/requirements.txt",
 	"customizations": {
 		"vscode": {
 			"extensions": [
