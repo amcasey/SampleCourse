@@ -15,17 +15,10 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"DavidAnson.vscode-markdownlint",
-				"dbaeumer.vscode-eslint",
-				"esbenp.prettier-vscode",
 				"ms-python.python",
 				"ms-python.black-formatter",
 				"ms-toolsai.jupyter",
-				"rust-lang.rust-analyzer",
-				"vadimcn.vscode-lldb",
-				"swellaby.workspace-config-plus",
-				"revng.llvm-ir",
-				"colejcummins.llvm-syntax-highlighting"
+				"quantum.qsharp-lang-vscode-dev"
 			]
 		}
 	}
