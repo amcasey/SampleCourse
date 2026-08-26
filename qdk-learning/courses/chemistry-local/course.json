@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "title": "Ground-State Molecular Energies with QPE",
+  "title": "Ground-State Molecular Energies with QPE [Local]",
   "shortDescription": "Estimate a molecule's ground-state energy using quantum phase estimation with the QDK/Chemistry library.",
   "units": [
     {

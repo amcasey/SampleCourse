@@ -11,7 +11,7 @@
 		},
 		"ghcr.io/devcontainers/features/rust:1": {}
 	},
-	"postCreateCommand": "python3 -m venv .venv && .venv/bin/python -m pip install -r qdk-learning/courses/chemistry-qpe/requirements.txt",
+	"postCreateCommand": "python3 -m venv .venv && .venv/bin/python -m pip install -r qdk-learning/courses/chemistry-local/requirements.txt",
 	"customizations": {
 		"vscode": {
 			"extensions": [
