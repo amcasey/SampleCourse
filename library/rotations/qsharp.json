@@ -1,9 +1,0 @@
-{
-  "author": "Microsoft",
-  "license": "MIT",
-  "files": [
-    "src/HammingWeightPhasing.qs",
-    "src/Main.qs",
-    "src/Tests.qs"
-  ]
-}

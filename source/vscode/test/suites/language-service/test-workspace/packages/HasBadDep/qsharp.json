@@ -1,7 +1,0 @@
-{
-    "dependencies": {
-      "BadDep": {
-        "path": "../WithSyntaxError"
-      }
-    }
-}

@@ -1,5 +1,0 @@
-{
-  "packageManager": "python",
-  "packageName": "qsharp-jupyterlab",
-  "uninstallInstructions": "Use your Python package manager (pip, conda, etc.) to uninstall the package qsharp-jupyterlab"
-}

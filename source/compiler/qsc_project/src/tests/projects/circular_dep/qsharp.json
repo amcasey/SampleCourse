@@ -1,8 +1,0 @@
-{
-  "author": "Microsoft",
-  "dependencies": {
-    "MyCircularDep": {
-      "path": "../circular_dep"
-    }
-  }
-}
