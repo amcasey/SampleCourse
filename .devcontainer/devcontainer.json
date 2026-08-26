@@ -7,7 +7,7 @@
 		"ghcr.io/devcontainers/features/python:1": {},
 		"ghcr.io/va-h/devcontainers-features/uv:1": {}
 	},
-	"postCreateCommand": "uv venv .venv && uv pip install --python .venv/bin/python --requirement qdk-learning/courses/chemistry-local/requirements.txt",
+	"postCreateCommand": "uv venv --clear .venv && uv pip install --python .venv/bin/python --requirement qdk-learning/courses/chemistry-local/requirements.txt",
 	"customizations": {
 		"vscode": {
 			"extensions": [
